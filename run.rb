@@ -31,6 +31,11 @@ def spiciest_foods(spicy_foods)
 end
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine)
+   spicy_foods.each do |food| 
+    if food[:cuisine] == cuisine 
+      puts food
+    end
+  end
 
 end
 
